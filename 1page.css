@@ -1,0 +1,82 @@
+ body, html { 
+    background-image: url(img/mountain.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    color: #ffffff;
+ }
+ 
+#menu {
+    width: 100%;
+    background: transparent;
+
+}
+.opcion {
+    color: aliceblue;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    top:50px;
+    margin: 50px auto;
+    padding: 0px 10px;
+    border: #94b9e4 0px solid;
+    border-radius: 1px;
+    background: transparent;
+}
+.opcion:hover {
+    box-shadow: 0px 0.1rem 0.4rem rgba(247, 249, 250, 0.5);
+    cursor: pointer;
+}
+/*#section2 {
+    height: 20rem;
+    width: 10rem;
+    background: transparent;
+    border: 1px burlywood solid;
+    border-radius: 1px;
+    align-items: center;
+    display: flex;*/
+
+.log {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(0, 255, 255);
+    text-align: center;
+    
+}
+form {
+    width: 200px;
+    height: 400px;
+    margin: 0 25px;
+    padding: 20px 0px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    text-align: left; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #ff4800;
+
+}
+label, input {
+    margin: 2px 0px;
+    padding: 1px 0px;
+    border-radius: 0.5px;
+    position: static;
+}
+input {
+    border: 0.5px rgb(247, 249, 250) solid;
+    border-radius: 5px;
+    background: turquoise;
+} 
+.submit {
+    padding: 5px 3px;
+    border: 1px rgb(136, 125, 125) solid;
+    border-radius: 3px;
+    background: rgb(168, 160, 160);
+    position: relative;
+    top: 10px;
+}
+.submit:hover {
+    box-shadow: 1px 1px 1px rgba(27, 100, 20, 0.5);
+}
