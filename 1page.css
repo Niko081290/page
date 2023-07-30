@@ -1,41 +1,41 @@
  body, html { 
+    margin: 0px auto;
     background-image: url(img/mountain.png);
     background-repeat: no-repeat;
-    background-attachment: local;
+    background-attachment:  fixed;
     background-size: cover;
+    background-position: center;
+
     color: #ffffff;
  }
+ body {
+    display: contents;
+ }
+
  
 #menu {
-    width: 100%;
-    background: transparent;
+
+    margin: 5px auto;
+    background-position: left;
+    text-align: right;
+    
 
 }
 .opcion {
-    color: aliceblue;
-    font-size: 20px;
+    color: rgb(13, 13, 14);
+    font-size: 25px;
     display: inline-block;
-    position: relative;
-    left: 600px;
-    top:50px;
-    margin: 50px auto;
+    top:30px;
+    margin: 10px auto;
     padding: 0px 10px;
     border: #94b9e4 0px solid;
     border-radius: 1px;
     background: transparent;
 }
 .opcion:hover {
-    box-shadow: 0px 0.1rem 0.4rem rgba(247, 249, 250, 0.5);
+    box-shadow: 0px 0.1rem 0.4rem rgba(10, 167, 179, 0.5);
     cursor: pointer;
 }
-/*#section2 {
-    height: 20rem;
-    width: 10rem;
-    background: transparent;
-    border: 1px burlywood solid;
-    border-radius: 1px;
-    align-items: center;
-    display: flex;*/
 
 .log {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -46,17 +46,15 @@
 }
 form {
     width: 200px;
-    height: 400px;
-    margin: 0 25px;
+    height: 300px;
+    background-position: center;
+    margin: 0px 5px;
     padding: 20px 0px;
-    position: relative;
-    left: 400px;
-    top: 100px;
     text-align: left; 
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     color: #ff4800;
-
+    
 }
 label, input {
     margin: 2px 0px;
@@ -65,18 +63,22 @@ label, input {
     position: static;
 }
 input {
+    height: 25px;
+    width: 250px;
     border: 0.5px rgb(247, 249, 250) solid;
     border-radius: 5px;
     background: turquoise;
 } 
-.submit {
+.enter {
     padding: 5px 3px;
     border: 1px rgb(136, 125, 125) solid;
     border-radius: 3px;
     background: rgb(168, 160, 160);
     position: relative;
     top: 10px;
+    text-align: center;
 }
-.submit:hover {
-    box-shadow: 1px 1px 1px rgba(27, 100, 20, 0.5);
+.enter:hover {
+    box-shadow: 1px 2px 1px rgba(177, 218, 174, 0.5);
+    cursor: pointer;
 }
