@@ -80,6 +80,6 @@ input {
     text-align: center;
 }
 .enter:hover {
-    box-shadow: 2px 1px 1px rgba(177, 218, 174, 0.5);
+    box-shadow: 2px 1px 1px rgba(219, 202, 16, 0.5);
     cursor: pointer;
 }
